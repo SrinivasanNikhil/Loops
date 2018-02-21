@@ -36,11 +36,32 @@ public class CountsAndSums {
 		}
 		
 		
+		System.out.println("Enter n :");
+		 n = scan.nextInt();
+		 
+		 i =0;
+		 while(i<n)
+		 {
+			 if(Math.floorMod(i, 2) == 0)
+			 {
+					System.out.println(i);
+			 }
+			 i++;
+		 }
 		
-		
-		
-		
-		
+		//Times table
+		 System.out.println("Enter n :");
+		 n = scan.nextInt();
+		 
+		 i =0;
+		 while(i<=12)
+		 {
+			 System.out.println(n + " times " + i + " is " + n*i);
+			 
+			 i++;
+		 }
+		 
+		 
 		
 		File aFile;
 		Scanner reader = null;
